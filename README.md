@@ -1,4 +1,37 @@
 
+# Danubio Realestat API 🏠
+
+A simple Realestat inentory managemnt API build on PHP Laravel
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/afraym/danubiorealestate.git
+```
+
+Go to the project directory
+
+```bash
+  cd danubiorealestate
+```
+
+Install dependencies
+
+```bash
+  composer install
+```
+copy ```env.example``` to ```env.``` and add your database info
+
+Start the server
+
+```bash
+  php artisan serve
+```
+
+
 # Danubio Realestate API 🏠
 
 A simple Realestat inentory managemnt API build on PHP Laravel
@@ -114,4 +147,11 @@ radius distance from it
 | `lat`      | `integer` | **Required** Latitude  |
 | `radius`      | `integer` |**Required**  Radius distance |
 
+
+
+## Features to be added later
+
+- Authentication
+- Property Image upload
+- Property to user relationship
 
