@@ -23,7 +23,7 @@ Install dependencies
 ```bash
   composer install
 ```
-copy ```env.example``` to ```env.``` and add your database info
+copy ```.env.example``` to ```.env``` and add your database info
 
 Migrate database
 
