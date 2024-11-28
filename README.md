@@ -31,40 +31,6 @@ Start the server
   php artisan serve
 ```
 
-
-# Danubio Realestate API 🏠
-
-A simple Realestat inentory managemnt API build on PHP Laravel
-
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone bashs://github.com/afraym/danubiorealestate.git
-```
-
-Go to the project directory
-
-```bash
-  cd danubiorealestate
-```
-
-Install dependencies
-
-```bash
-  composer install
-```
-copy ```env.example``` to ```env.``` and add your database info
-
-Start the server
-
-```bash
-  php artisan serve
-```
-
-
 ## API Reference
 
 
