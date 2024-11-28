@@ -35,8 +35,8 @@ class PropertyController extends Controller
             'address' => 'required|string',
             'size' => 'required|numeric',
             'bedrooms' => 'required|integer',
-            'lat' => 'required|numeric',
-            'lon' => 'required|numeric',
+            'lat' => 'numeric',
+            'lon' => 'numeric',
             'price' => 'required|numeric',
         ]);
        
