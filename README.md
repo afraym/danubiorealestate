@@ -9,7 +9,7 @@ A simple Realestat inentory managemnt API build on PHP Laravel
 Clone the project
 
 ```bash
-  git clone https://github.com/afraym/danubiorealestate.git
+  git clone bashs://github.com/afraym/danubiorealestate.git
 ```
 
 Go to the project directory
@@ -34,22 +34,6 @@ Start the server
 
 ## API Reference
 
-#### Get all properties
-
-```bash
-  GET api/properties
-```
-
-
-#### Get property by id
-
-```bash
-  GET api/properties/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of property to fetch |
 
 ### Add new Property
 ```bash
@@ -67,6 +51,44 @@ Start the server
 | `lat`      | `integer` | **Optional**. Latitude of property  |
 | `lon`      | `integer` | **Optional**. Longitude of property  |
 
+
+#### Get all properties
+
+```bash
+  GET api/properties
+```
+
+#### Get property by id
+
+```bash
+  GET api/properties/{id}
+```
+
+
+
+
+### Update Property
+```bash
+  PUT|PATCH api/properties/{id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `name`      | `string` | **Optional**. name of property  |
+| `type`      | `string` | **Optional**. Type of property  ```Apartment```or```House``` |
+| `address`      | `string` | **Optional**. Address of property  |
+| `bedrooms`      | `integer` | **Optional**. number of bedrooms of the property |
+| `size`      | `integer` | **Optional**. Size of property  |
+| `price`      | `integer` | **Optional**. Price of property  |
+| `lat`      | `integer` | **Optional**. Latitude of property  |
+| `lon`      | `integer` | **Optional**. Longitude of property  |
+
+
+### Delete Property
+
+```bash
+DELETE  api/properties/{id}
+```
 
 ### Search properties
 ```bash
