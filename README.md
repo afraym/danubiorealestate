@@ -9,7 +9,7 @@ A simple Realestat inentory managemnt API build on PHP Laravel
 Clone the project
 
 ```bash
-  git clone bashs://github.com/afraym/danubiorealestate.git
+  git clone https://github.com/afraym/danubiorealestate.git
 ```
 
 Go to the project directory
