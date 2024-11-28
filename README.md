@@ -1,5 +1,5 @@
 
-# Danubio Realestat API 🏠
+# Danubio Realestate API 🏠
 
 A simple Realestat inentory managemnt API build on PHP Laravel
 
@@ -36,14 +36,14 @@ Start the server
 
 #### Get all properties
 
-```http
+```bash
   GET api/properties
 ```
 
 
 #### Get property by id
 
-```http
+```bash
   GET api/properties/${id}
 ```
 
@@ -64,7 +64,4 @@ to search properties by any parameters of the table below
 | `bedrooms`      | `integer` | **Optional**. Id of property to search |
 | `size`      | `integer` | **Optional**. Size of property to search  |
 
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
