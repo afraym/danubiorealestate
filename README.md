@@ -25,6 +25,12 @@ Install dependencies
 ```
 copy ```env.example``` to ```env.``` and add your database info
 
+Migrate database
+
+```bash
+  php artisan migrate
+```
+
 Start the server
 
 ```bash
@@ -41,7 +47,7 @@ Start the server
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `name`      | `string` | **Required**. name of property  |
+| `name`      | `string` | **Required**. Name of property  |
 | `type`      | `string` | **Required**. Type of property  ```Apartment```or```House``` |
 | `address`      | `string` | **Required**. Address of property  |
 | `bedrooms`      | `integer` | **Required**. number of bedrooms of the property |
@@ -120,4 +126,5 @@ radius distance from it
 - Authentication
 - Property Image upload
 - Property to user relationship
-
+- Property Video Previews
+- 
