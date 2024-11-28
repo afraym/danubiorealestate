@@ -51,17 +51,28 @@ Start the server
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. Id of property to fetch |
 
+### Search properties
 ```http
   GET api/search/
 ```
-to search properties by any parameters of the table below
+#### Search properties by any parameters of the table below
+
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
 | `name`      | `string` | **Optional**. name of property to search for |
 | `type`      | `string` | **Optional**. Type of property to search for ```Apartment```or```House```|
 | `address`      | `string` | **Optional**. Address of property to search for |
 | `size`      | `integer` | **Optional**. Id of property to search for |
-| `bedrooms`      | `integer` | **Optional**. Id of property to search |
+| `bedrooms`      | `integer` | **Optional**. number of bedrooms of property to search |
 | `size`      | `integer` | **Optional**. Size of property to search  |
+
+To search Properties by a geographical (Lat/Lon) point and a
+radius distance from it
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `lon`      | `integer` |  Longitude  |
+| `lat`      | `integer` |  Latitude  |
+| `radius`      | `integer` |  Radius distance |
 
 
