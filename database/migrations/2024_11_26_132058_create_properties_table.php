@@ -14,11 +14,12 @@ return new class extends Migration
         Schema::create('properties', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('type_id');
-            $table->string('long');
-            $table->string('lat');
-            $table->string('size');
-            $table->string('rooms');
+            $table->enum('type', ['House', 'Apartment']);
+            $table->decimal('lon', 11,8);
+            $table->decimal('lat', 10,8);
+            $table->text('address');
+            $table->decimal('size', 10,2);
+            $table->integer('bedrooms');
             $table->string('price');
             $table->timestamps();
         });
