@@ -1,5 +1,5 @@
 
-# Danubio Realestat API 🏠
+# Danubio Realestate API 🏠
 
 A simple Realestat inentory managemnt API build on PHP Laravel
 
@@ -79,7 +79,7 @@ Start the server
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `name`      | `string` | **Optional**. name of property  |
+| `name`      | `string` | **Optional**. Name of property  |
 | `type`      | `string` | **Optional**. Type of property  ```Apartment```or```House``` |
 | `address`      | `string` | **Optional**. Address of property  |
 | `bedrooms`      | `integer` | **Optional**. number of bedrooms of the property |
