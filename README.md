@@ -50,7 +50,7 @@ Start the server
 | `name`      | `string` | **Required**. Name of property  |
 | `type`      | `string` | **Required**. Type of property  ```Apartment```or```House``` |
 | `address`      | `string` | **Required**. Address of property  |
-| `bedrooms`      | `integer` | **Required**. number of bedrooms of the property |
+| `bedrooms`      | `integer` | **Required**. Number of bedrooms of the property |
 | `size`      | `integer` | **Required**. Size of property  |
 | `price`      | `integer` | **Required**. Price of property  |
 | `lat`      | `integer` | **Optional**. Latitude of property  |
@@ -82,7 +82,7 @@ Start the server
 | `name`      | `string` | **Optional**. Name of property  |
 | `type`      | `string` | **Optional**. Type of property  ```Apartment```or```House``` |
 | `address`      | `string` | **Optional**. Address of property  |
-| `bedrooms`      | `integer` | **Optional**. number of bedrooms of the property |
+| `bedrooms`      | `integer` | **Optional**. Number of bedrooms of the property |
 | `size`      | `integer` | **Optional**. Size of property  |
 | `price`      | `integer` | **Optional**. Price of property  |
 | `lat`      | `integer` | **Optional**. Latitude of property  |
@@ -106,7 +106,7 @@ DELETE  api/properties/{id}
 | `name`      | `string` | **Optional**. name of property  |
 | `type`      | `string` | **Optional**. Type of property  ```Apartment```or```House``` |
 | `address`      | `string` | **Optional**. Address of property  |
-| `size`      | `integer` | **Optional**. Id of property  |
+| `size`      | `integer` | **Optional**. Size of property  |
 | `bedrooms`      | `integer` | **Optional**. number of bedrooms of property |
 
 ### Search properties geographically
