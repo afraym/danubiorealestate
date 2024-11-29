@@ -13,6 +13,7 @@ class Property extends Model
         'type',
         'address',
         'size',
+        'size_type',
         'bedrooms',
         'lat',
         'lon',

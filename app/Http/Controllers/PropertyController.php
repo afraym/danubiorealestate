@@ -34,6 +34,7 @@ class PropertyController extends Controller
             'type' => 'required|string',
             'address' => 'required|string',
             'size' => 'required|numeric',
+            'size_type' => 'required|string',
             'bedrooms' => 'required|integer',
             'lat' => 'numeric',
             'lon' => 'numeric',
@@ -47,13 +48,14 @@ class PropertyController extends Controller
         'type',
         'address',
         'size',
+        'size_type',
         'bedrooms',
         'lat',
         'lon',
         'price',
         ]));
 
-        return response()->json("success", "Property added successfully",200);
+        return response()->json(["success" => "Property added successfully"],200);
     }
 
     /**
@@ -125,6 +127,7 @@ class PropertyController extends Controller
             'type' => 'string',
             'address' => 'string',
             'size' => 'numeric',
+            'size_type' => 'string',
             'bedrooms' => 'integer',
             'lat' => 'numeric',
             'lon' => 'numeric',
@@ -136,6 +139,7 @@ class PropertyController extends Controller
             'type',
             'address',
             'size',
+            'size_type',
             'bedrooms',
             'lat',
             'lon',
